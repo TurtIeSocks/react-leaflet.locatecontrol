@@ -1,0 +1,46 @@
+{
+  "name": "react-leaflet.locatecontrol",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "React wrapper for the Leaflet Locate Control plugin",
+  "repository": "https://github.com/TurtIeSocks/react-leaflet.locatecontrol",
+  "author": "TurtIeSocks <58572875+TurtIeSocks@users.noreply.github.com>",
+  "homepage": "https://TurtIeSocks.github.io/react-leaflet.locatecontrol/",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build -- -r",
+    "build:ts": "tsc --project tsconfig.build.json"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/leaflet": "^1.9.8",
+    "@types/leaflet.locatecontrol": "^0.74.4",
+    "@types/node": "^20.12.3",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.23",
+    "@vitejs/plugin-react": "^4.2.1",
+    "leaflet": "^1.9.4",
+    "leaflet.locatecontrol": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.7",
+    "vite-plugin-checker": "^0.6.4"
+  },
+  "dependencies": {
+    "@react-leaflet/core": "^2"
+  },
+  "peerDependencies": {
+    "leaflet.locatecontrol": "*",
+    "react-leaflet": "^4"
+  }
+}
