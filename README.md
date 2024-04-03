@@ -25,13 +25,13 @@ Add React Leaflet.LocateControl:
 
 ```bash
   // npm
-  npm i react-leaflet.locatecontrol
+  npm i @turtlesocks/react-leaflet.locatecontrol
 
   // yarn
-  yarn add react-leaflet.locatecontrol
+  yarn add @turtlesocks/react-leaflet.locatecontrol
 
   // pnpm
-  pnpm add react-leaflet.locatecontrol
+  pnpm add @turtlesocks/react-leaflet.locatecontrol
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ Add React Leaflet.LocateControl:
 ```tsx
 import * as React from 'react'
 import { MapContainer, TileLayer } from 'react-leaflet'
-import { LocateControl } from 'react-leaflet.locatecontrol'
+import { LocateControl } from '@turtlesocks/react-leaflet.locatecontrol'
 
 import 'leaflet/dist/leaflet.css'
 // You still need to import the CSS from the original plugin

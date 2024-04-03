@@ -24,5 +24,6 @@ jobs:
       - run: pnpm run build:ts
       - uses: JS-DevTools/npm-publish@v1
         with:
+          access: public
           token: ${{ secrets.NPM_TOKEN }}
   

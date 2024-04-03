@@ -1,5 +1,5 @@
 {
-  "name": "react-leaflet.locatecontrol",
+  "name": "@turtlesocks/react-leaflet.locatecontrol",
   "version": "0.1.0",
   "type": "module",
   "description": "React wrapper for the Leaflet Locate Control plugin",

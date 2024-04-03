@@ -40,7 +40,7 @@ export default defineConfig(({ mode }) => {
         mode === 'development' || isRelease
           ? undefined
           : {
-              name: 'react-leaflet.locatecontrol',
+              name: '@turtlesocks/react-leaflet.locatecontrol',
               entry: 'src/index.ts',
               fileName: 'index',
             },
