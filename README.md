@@ -1,6 +1,6 @@
 # react-leaflet.locatecontrol
 
-[![npm version](https://badge.fury.io/js/react-leaflet.locatecontrol.svg)](https://badge.fury.io/js/react-leaflet.locatecontrol)
+[![npm version](https://badge.fury.io/js/@turtlesocks/react-leaflet.locatecontrol.svg)](https://badge.fury.io/js/@turtlesocks/react-leaflet.locatecontrol)
 
 Basic React wrapper for the [Leaflet Locate Control Plugin](https://github.com/domoritz/leaflet-locatecontrol)
 

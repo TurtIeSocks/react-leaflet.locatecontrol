@@ -1,6 +1,6 @@
 {
   "name": "@turtlesocks/react-leaflet.locatecontrol",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "React wrapper for the Leaflet Locate Control plugin",
   "repository": "https://github.com/TurtIeSocks/react-leaflet.locatecontrol",
@@ -8,6 +8,13 @@
   "homepage": "https://TurtIeSocks.github.io/react-leaflet.locatecontrol/",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "react",
+    "leaflet",
+    "locate",
+    "control",
+    "plugin"
+  ],
   "files": [
     "dist"
   ],
