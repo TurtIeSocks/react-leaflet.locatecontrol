@@ -10,7 +10,7 @@ Basic React wrapper for the [Leaflet Locate Control Plugin](https://github.com/d
 
 Add Peer Dependencies:
 
-```sh
+```bash
   // npm
   npm i react-leaflet leaflet.locatecontrol
 
@@ -23,7 +23,7 @@ Add Peer Dependencies:
 
 Add React Leaflet.LocateControl:
 
-```sh
+```bash
   // npm
   npm i react-leaflet.locatecontrol
 
